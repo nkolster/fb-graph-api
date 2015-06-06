@@ -1,0 +1,30 @@
+{
+  "name": "fb-gapi",
+  "version": "1.0.0",
+  "description": "Simple library to use FB Graph API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Niklas Kolster",
+    "email": "niklas.kolster@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkolster/fb-graph-api"
+  },
+  "bugs": {
+    "url": "https://github.com/nkolster/fb-graph-api/issues"
+  },
+  "tags": [
+    "api",
+    "fb",
+    "graph",
+    "simple"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.57.0"
+  }
+}
