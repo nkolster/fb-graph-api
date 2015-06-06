@@ -26,7 +26,7 @@ api.get({
 	// Do something with error
 });
 
-api.destroy(); //  after you get done
+api.destroy(); //  once done
 ```
 
 ### Init
@@ -142,7 +142,7 @@ api.setToken(version);
 var gapi = require('fb-gapi');
 var api = new gapi();
 
-// Do anything with API
+// Do anything with the API
 
 api.destroy();
 ```
@@ -193,11 +193,11 @@ api.get({
 *  /me
 *  me
 
-me is example, you can use all valid FB Graph API methods
+me is example, all valid FB Graph API methods can be used
 
 **POST, PUT & DELETE methods works the same way**
 
-#### Also you can use gapi in your app multiple time
+#### Also you can use gapi in your app several times
 
 ```
 var gapi = require('./fb-gapi');
